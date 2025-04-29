@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #8B5E3C;
+  --secondary: #D4AF37;
+  --accent: #C17817;
+  --background: #FAF9F6;
+  --text: #2C1810;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+}
+
+.nav-link {
+  @apply px-4 py-2 text-gray-700 hover:text-accent transition-colors;
+}
+
+.nav-link.active {
+  @apply text-accent font-medium;
+}
+
+.btn-primary {
+  @apply px-6 py-3 bg-accent text-white rounded-lg hover:bg-opacity-90 transition-all;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 border-2 border-accent text-accent rounded-lg hover:bg-accent hover:text-white transition-all;
+}
