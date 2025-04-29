@@ -11,6 +11,7 @@ import PastLifeRegression from './components/pages/PastLifeRegression';
 import FengShui from './components/pages/FengShui';
 import Footer from './components/layout/Footer';
 import PaymentComponent from './components/utils/PaymentComponent';
+import Calendly from './components/utils/Calendly';
 const App = () => {
   return (
     <div className="min-h-screen flex flex-col">
