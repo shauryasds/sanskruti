@@ -10,7 +10,6 @@ import Ayurveda from './components/pages/Ayurveda';
 import PastLifeRegression from './components/pages/PastLifeRegression';
 import FengShui from './components/pages/FengShui';
 import Footer from './components/layout/Footer';
-import Calendly from './components/utils/calendly';
 import PaymentComponent from './components/utils/PaymentComponent';
 const App = () => {
   return (
